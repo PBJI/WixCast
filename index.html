@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Extension Page</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      button {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #4285F4;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #3367D6;
+      }
+      .checkmark {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .checkmark:before {
+        content: "\2713";
+        font-size: 28px;
+        color: green;
+        display: block;
+        line-height: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WixCast</h1>
+    <button>Add Product</button>
+    <button>Update Product</button>
+    <button>Delete Message</button>
+    <button>Download CSV</button>
+    <button>Add Imgur API</button>
+    <div class="checkmark"></div>
+    <button>Add OpenAI API</button>
+    <div class="checkmark"></div>
+  </body>
+  <script src="./script.js">
+  </script>
+</html>
+
