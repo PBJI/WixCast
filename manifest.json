@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "WixCast",
+  "version": "1.0",
+
+  "description": "Used to automate whatsapp products upload to wix.com",
+    
+  "permission": [
+    "activeTab"  
+  ],
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },:
+
+  "browser_action":{
+    "default_icon": "icons/icon-32.png",
+    "default_title": "WixCast",
+    "default_popup":"popup/index.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.whatsapp.com/*"],
+      "js": ["chatSearchGroup.js","Main.js"]
+    }
+  ]
+
+}
+
