@@ -1,0 +1,5 @@
+imgur:
+
+client id: 93bbc78eff59f6b
+
+client secret: 1732ab0f23777ae505dd524c4450c099b7c6443a
